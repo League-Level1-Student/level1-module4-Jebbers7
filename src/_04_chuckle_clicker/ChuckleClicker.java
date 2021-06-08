@@ -30,7 +30,10 @@ public void actionPerformed(ActionEvent event) {
 	// TODO Auto-generated method stub
 	JOptionPane.showMessageDialog(null, "Hi");
 	if(event.getSource() == button) {
-		
+		JOptionPane.showMessageDialog(null, "What do you call a fake noodle?");
+	}
+	if(event.getSource() == button2) {
+		JOptionPane.showMessageDialog(null, "An impasta!");
 	}
 }
 }
